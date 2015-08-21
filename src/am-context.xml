@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<httpServer context="/myApp" port="8080">
+	<handler>
+		<handler-class>com.automic.httpSrv.demo.DemoAction</handler-class>
+		<url-pattern>/demoAction</url-pattern>
+	</handler>
+
+
+</httpServer>
