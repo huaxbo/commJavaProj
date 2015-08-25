@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<system>    
+	<!-- 获取数据库连接超时时长。单位：ms。取值-1表示立即获取 -->
+	<dataShare.conTimeOut>500</dataShare.conTimeOut>
+	
+</system>
+
+  

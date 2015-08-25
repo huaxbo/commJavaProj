@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--数据源模块可以配置多个数据源 -->
+<dataSources>
+  <!-- 奥特美克数据库 -->
+  <dataSource>
+    <dataSourceName>db_automic</dataSourceName>
+    
+    <driverClass>oracle.jdbc.driver.OracleDriver</driverClass>
+    <url>jdbc:oracle:thin:@192.168.0.5:1521:awrs</url>
+   
+    <!-- <driverClass>net.sourceforge.jtds.jdbc.Driver</driverClass>
+    <url>jdbc:jtds:sqlserver://192.168.5.145:1433;DatabaseName=ZhongZhuanTemp;useUnicode=true;characterEncoding=GBK;autoReconnect=true</url> -->
+    <user>sa</user>
+    <password>swdeptsa654321</password>
+    <maxCount>100</maxCount>
+    <minCount>1</minCount>
+    <autoCommit>false</autoCommit>
+    <!--
+	    是否需要测试
+	    以下两个元素配置连接测试属性，
+	    当一定时间内(分钟)连接无任何操作时，重新应用此连接，需要进行连接是否有效测试
+	    如果有效这个连接将被应用，如果无效，连接将被抛弃
+    -->
+    <needTestConnection>true</needTestConnection>
+    <!-- 连接发呆长时(分钟) -->
+    <timeConNeedTest>10</timeConNeedTest>
+  </dataSource>
+
+  <!-- 航天科工数据库 -->
+  <dataSource>
+    <dataSourceName>db_htkg</dataSourceName>
+    <!-- <driverClass>net.sourceforge.jtds.jdbc.Driver</driverClass>
+    <url>jdbc:jtds:sqlserver://localhost:1433;DatabaseName=RTDB_HT;useUnicode=true;characterEncoding=GBK;autoReconnect=true</url> -->
+	<!-- <driverClass>oracle.jdbc.driver.OracleDriver</driverClass>
+    <url>jdbc:oracle:thin:@192.168.0.5:1521:oradb</url> -->
+    <driverClass>com.mysql.jdbc.Driver</driverClass>
+    <url>jdbc:mysql://localhost:3306/sxsl_szyjk?useServerPrepStmts=false&amp;rewriteBatchedStatements=true</url>
+    <user>root</user>
+    <password>automic</password>
+    <maxCount>100</maxCount>
+    <minCount>1</minCount>
+    <autoCommit>false</autoCommit>
+    <needTestConnection>true</needTestConnection>
+    <timeConNeedTest>10</timeConNeedTest>
+  </dataSource>
+	
+  
+</dataSources>
+
+  

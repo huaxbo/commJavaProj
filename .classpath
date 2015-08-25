@@ -2,18 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/myLib/spring2/log4j/log4j-1.2.14.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/spring-webmvc-2.5.6.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/stax-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/wsdl4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/wsdl4j-1.6.2.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/xfire-all-1.2.4.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/xfire-all-1.2.6.jar"/>
-	<classpathentry kind="lib" path="/myLib/xfire/XmlSchema-1.4.6.jar"/>
-	<classpathentry kind="lib" path="/myLib/spring2/dom4j/jdom.jar"/>
-	<classpathentry kind="lib" path="/myLib/spring2/jakarta-commons/commons-codec.jar"/>
-	<classpathentry kind="lib" path="/myLib/spring2/jakarta-commons/commons-httpclient.jar"/>
 	<classpathentry kind="lib" path="libs/wsclient/axis.jar"/>
 	<classpathentry kind="lib" path="libs/wsclient/commons-discovery-0.2.jar"/>
 	<classpathentry kind="lib" path="libs/wsclient/javax.wsdl_1.6.2.v201005080631.jar"/>
@@ -25,5 +13,31 @@
 	<classpathentry kind="lib" path="libs/httpclient/httpclient-cache-4.3.1.jar"/>
 	<classpathentry kind="lib" path="libs/httpclient/httpcore-4.3.jar"/>
 	<classpathentry kind="lib" path="libs/httpclient/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/ACCommon-base.1.0.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/ACUtil.1.0.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/classes12.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/commons-collections.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/jdom.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/jta.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/jtds-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/mysql-connector-java-5.1.35-bin.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/quartz-1.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/xerces-2.6.2.jar"/>
+	<classpathentry kind="lib" path="libs/dataShare/xstream-1.1.2.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/commons-codec.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/spring-webmvc-2.5.6.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/wsdl4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/wsdl4j-1.6.2.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/xfire-all-1.2.4.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/xfire-all-1.2.6.jar"/>
+	<classpathentry kind="lib" path="libs/xfire/XmlSchema-1.4.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
