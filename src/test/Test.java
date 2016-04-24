@@ -13,7 +13,10 @@ public class Test {
 
 	private static Logger log = Logger.getLogger(Test.class);
 	
-	
+	private void test(){
+		
+		System.out.println("hello test !!!");
+	}
 	
 	/**
 	 * @param args
